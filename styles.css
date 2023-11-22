@@ -1,0 +1,29 @@
+.boton {
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#menu {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#menu.visible {
+    visibility: visible;
+    opacity: 1;
+}
+#boton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#output {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
